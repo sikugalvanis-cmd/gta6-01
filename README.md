@@ -26,20 +26,13 @@ You are Jax Rivera, a driver for hire in Neon Bay, a sun-soaked neon city. Take 
 node serve.ts
 ```
 
-Then open http://localhost:8080 in desktop Chrome. No network requests: the game
-runs entirely from the static files under `game/`, with three.js vendored under
-`game/vendor/`.
+Then open http://localhost:8080 in desktop Chrome. No network requests: the game runs entirely from the static files under `game/`, with three.js vendored under `game/vendor/`.
 
-Controls: WASD to move/drive, mouse to look, E to enter/exit or steal a car,
-F to punch, G to fire the pistol, R to reload, M to enlarge the minimap,
-Esc to pause.
+Controls: WASD to move/drive, mouse to look, E to enter/exit or steal a car, F to punch, G to fire the pistol, R to reload, M to enlarge the minimap, Esc to pause.
 
 ## How it was made
 
-Built with three.js (vendored) and plain JavaScript, no game engine. Screenshots
-in `screenshots/` are real renders of the running game. `main.ts` hands the game
-in: it copies `game/` and `screenshots/` to the output directory and writes
-`dossier.json` with the kit's `buildDossier`.
+Built with three.js (vendored) and plain JavaScript, no game engine. Screenshots in `screenshots/` are real renders of the running game. `main.ts` hands the game in: it copies `game/` and `screenshots/` to the output directory and writes `dossier.json` with the kit's `buildDossier`.
 
 ## Referral
 
